@@ -1,33 +1,14 @@
 Package: dump1090-fa
-Version: 9.0
-Architecture: arm64
-Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
-Installed-Size: 11900
-Depends: libbladerf2 (>= 0.2023.02), libc6 (>= 2.38), libhackrf0 (>= 2023.01.1), liblimesuite23.11-1 (>= 23.11.0+dfsg), libncurses6 (>= 6), librtlsdr2 (>= 2.0.1), libsoapysdr0.8 (>= 0.8.1), libtinfo6 (>= 6), adduser, lighttpd
-Filename: ./dump1090-fa_9.0_arm64.deb
-Size: 2383326
-MD5sum: 8ef5242d7427d84048310d6cbb7a26e2
-SHA1: d1ad3dc7f5c0d5187528236faea936a2d7326d67
-SHA256: ce2921137d7b6ecf9c7e65e20fb620f174a8ace0087fdecd11b4b2ccdad0cb7d
-Section: embedded
-Priority: extra
-Homepage: http://www.flightaware.com/
-Description: FlightAware ADS-B Ground Station System for SDRs
- Networked Aviation Mode S / ADS-B decoder/translator with support
- for RTL-SDR, BladeRF, HackRF, and LimeSDR software defined radio USB
- device support.
-
-Package: dump1090-fa
-Version: 9.0
+Version: 10.0
 Architecture: amd64
 Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
-Installed-Size: 11820
+Installed-Size: 11828
 Depends: libbladerf2 (>= 0.2023.02), libc6 (>= 2.38), libhackrf0 (>= 2023.01.1), liblimesuite23.11-1 (>= 23.11.0+dfsg), libncurses6 (>= 6), librtlsdr2 (>= 2.0.1), libsoapysdr0.8 (>= 0.8.1), libtinfo6 (>= 6), adduser, lighttpd
-Filename: ./dump1090-fa_9.0_amd64.deb
-Size: 2376810
-MD5sum: 97a410c3f3f91c51576c9e27a893a3cb
-SHA1: 69fd1d945e0a0a521fb6bb50aa18d3b25d03c366
-SHA256: 55db998b687bf951864d5afce770882fafdb4105ed5fe6baab7aed6a1cd8f6c9
+Filename: ./dump1090-fa_10.0_amd64.deb
+Size: 2390436
+MD5sum: b4ee3a1dcb40a35af4c76c605386ce44
+SHA1: 5eca36fa98d14fc2cee529d8b4cd0e6a9ab78e31
+SHA256: 2c0edf55f07d52e443e1be8d977c83aac4eaa4ec8dc205ba8b57b95e948489e7
 Section: embedded
 Priority: extra
 Homepage: http://www.flightaware.com/
@@ -37,36 +18,17 @@ Description: FlightAware ADS-B Ground Station System for SDRs
  device support.
 
 Package: dump978-fa
-Version: 9.0
-Architecture: arm64
-Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
-Installed-Size: 678
-Depends: libboost-program-options1.83.0 (>= 1.83.0), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 13.1), adduser
-Recommends: skyaware978, soapysdr-module-rtlsdr
-Filename: ./dump978-fa_9.0_arm64.deb
-Size: 232506
-MD5sum: f9dcb02800f5d289a971e9647e230a7c
-SHA1: 8fc9f4706ac588fc2dad90d2b89eefb2f16f8707
-SHA256: 9a4f2577d0eecb4736ab62f686d2ec5d82111da6c1c1bee9bb8f463a53121724
-Section: embedded
-Priority: extra
-Homepage: http://www.flightaware.com/
-Description: ADS-B UAT Ground Station System
- .
- FlightAware's SDR decoder for UAT ADS-B messages on 978MHz.
-
-Package: dump978-fa
-Version: 9.0
+Version: 10.0
 Architecture: amd64
 Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
 Installed-Size: 670
 Depends: libboost-program-options1.83.0 (>= 1.83.0), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 13.1), adduser
 Recommends: skyaware978, soapysdr-module-rtlsdr
-Filename: ./dump978-fa_9.0_amd64.deb
-Size: 241650
-MD5sum: 56f7a8184e9203ad984f99e7e3318d03
-SHA1: aeb4a2b35f23b6654caaf151ed337fa1c68b597c
-SHA256: cc6f78a5ebc1de82771962e51fa7ed9c5c05067f7f0d7e8e21d69ac7112c4a9a
+Filename: ./dump978-fa_10.0_amd64.deb
+Size: 241600
+MD5sum: 3e5b6e636f27e6c0013b6bf848c783d9
+SHA1: 873715a85309a06ed9db03224824ea4fc6b90129
+SHA256: a393f480dfff6ef712b81fc3489a0e439cab570fdf062421f303f127d7fa8e43
 Section: embedded
 Priority: extra
 Homepage: http://www.flightaware.com/
@@ -75,39 +37,19 @@ Description: ADS-B UAT Ground Station System
  FlightAware's SDR decoder for UAT ADS-B messages on 978MHz.
 
 Package: piaware
-Version: 9.0.1
+Version: 10.0
 Architecture: amd64
 Maintainer: FlightAware Developers <adsb-devs@flightaware.com>
-Installed-Size: 14460
-Depends: libboost-program-options1.83.0 (>= 1.83.0), libbz2-1.0, libc6 (>= 2.38), libexpat1 (>= 2.6.0), libgcc-s1 (>= 3.3.1), liblzma5 (>= 5.1.1alpha+20120614), libpython3.12t64 (>= 3.12.1), libssl3t64 (>= 3.0.0), libstdc++6 (>= 13.1), libtcl8.6 (>= 8.6.0), zlib1g (>= 1:1.2.0), net-tools, iproute2, tcl, tclx8.4, tcl8.6, tcllib, tcl-tls (>= 1.7.22-2+fa1), itcl3
-Suggests: dump1090-fa, dump978-fa
-Conflicts: fa-mlat-client
-Replaces: fa-mlat-client
-Filename: ./piaware_9.0.1_amd64.deb
-Size: 4757722
-MD5sum: a2e1e01d7a90719af6471ec35fd99e41
-SHA1: 5facbf3a6c50723d6635288669d3a9a777acc753
-SHA256: 3631dfb57bfc8f2c700db3255b88c0ba3031caa4cf35d0123f8b9781896b2ebe
-Section: embedded
-Priority: extra
-Homepage: https://github.com/flightaware
-Description: Open Aviation Data Exchange Protocol for ADS-B FlightFeeders
-  The client-side portion of fa_adept that sends aviation data via TCL sockets.
-
-Package: piaware
-Version: 9.0.1
-Architecture: arm64
-Maintainer: FlightAware Developers <adsb-devs@flightaware.com>
-Installed-Size: 24052
+Installed-Size: 23322
 Depends: libboost-program-options1.83.0 (>= 1.83.0), libbz2-1.0, libc6 (>= 2.38), libexpat1 (>= 2.6.0), libgcc-s1 (>= 3.3.1), liblzma5 (>= 5.1.1alpha+20120614), libssl3t64 (>= 3.0.0), libstdc++6 (>= 13.1), libtcl8.6 (>= 8.6.0), zlib1g (>= 1:1.2.0), net-tools, iproute2, tcl, tclx8.4, tcl8.6, tcllib, tcl-tls (>= 1.7.22-2+fa1), itcl3
 Suggests: dump1090-fa, dump978-fa
 Conflicts: fa-mlat-client
 Replaces: fa-mlat-client
-Filename: ./piaware_9.0.1_arm64.deb
-Size: 6826044
-MD5sum: 30c41fe41537e1b36864009aea4bee12
-SHA1: 7c2194d70460cafc661d24419d6f981acf8c3790
-SHA256: ecdb66f635a3794446ddd61804fc4641f31e28bb36566ee1d98bf8bebf838161
+Filename: ./piaware_10.0_amd64.deb
+Size: 6967404
+MD5sum: 783fc076f22920e5b78528392b61c08e
+SHA1: b3dc95d39d2e7b68321c851300027e8091c0b70a
+SHA256: ef75cf865cb84063c100d2b2508fc85d740b824ca4fe11cbfbeaf9e592874858
 Section: embedded
 Priority: extra
 Homepage: https://github.com/flightaware
@@ -115,16 +57,16 @@ Description: Open Aviation Data Exchange Protocol for ADS-B FlightFeeders
   The client-side portion of fa_adept that sends aviation data via TCL sockets.
 
 Package: piaware-web
-Version: 9.0
+Version: 10.0
 Architecture: all
 Maintainer: FlightAware Developers <adsb-devs@flightaware.com>
 Installed-Size: 371
 Depends: lighttpd
-Filename: ./piaware-web_9.0_all.deb
-Size: 90040
-MD5sum: cf152744f5f17a61fd569cea93769824
-SHA1: 83ac54c11b29761aa998415e4b3ed71fd8c14eb1
-SHA256: 54c6402c587fc50b70fa221abfd277860fdbbf6b65bae0aeb8a6470f5bae9b08
+Filename: ./piaware-web_10.0_all.deb
+Size: 90062
+MD5sum: da528b36c6eca13b55eebd09e73c0919
+SHA1: 4ec39e69f578f93fdb5e3b3e9480c36b3b55faef
+SHA256: 6335dbd591c3474ecac042614146253574ad48cc6f9efa125dd3518d2f37fc8d
 Section: embedded
 Priority: extra
 Homepage: https://github.com/flightaware
@@ -132,93 +74,22 @@ Description: PiAware landing webpage
 
 Package: skyaware978
 Source: dump978-fa
-Version: 9.0
+Version: 10.0
 Architecture: amd64
 Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
 Installed-Size: 14472
 Depends: libboost-filesystem1.83.0 (>= 1.83.0), libboost-program-options1.83.0 (>= 1.83.0), libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), adduser, lighttpd
 Breaks: skyview978 (<< 3.7.2~)
 Replaces: skyview978 (<< 3.7.2~)
-Filename: ./skyaware978_9.0_amd64.deb
-Size: 2742942
-MD5sum: ac5e9289e27988e4298c72ea695b06d0
-SHA1: 4860262903c13d91f7d56298a9e4b4911a04f00b
-SHA256: f71237794cca514dd7ae8f9e917595d358ea5a4e13bb0939c47046126496b7c8
+Filename: ./skyaware978_10.0_amd64.deb
+Size: 2743124
+MD5sum: 8cd8b677eead672082df0ddb374dc0ad
+SHA1: 37324609297b44b40835f0ce5f3085072f7022b9
+SHA256: 7f780ba5fc06868310db473933fa67f3cc8a161fb54498d76e7d9a593e2d009b
 Section: embedded
 Priority: extra
 Homepage: http://www.flightaware.com/
 Description: Local web interface for dump978
  .
  Provides a web interface to display aircraft data received from dump978.
-
-Package: skyaware978
-Source: dump978-fa
-Version: 9.0
-Architecture: arm64
-Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
-Installed-Size: 14480
-Depends: libboost-filesystem1.83.0 (>= 1.83.0), libboost-program-options1.83.0 (>= 1.83.0), libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), adduser, lighttpd
-Breaks: skyview978 (<< 3.7.2~)
-Replaces: skyview978 (<< 3.7.2~)
-Filename: ./skyaware978_9.0_arm64.deb
-Size: 2736050
-MD5sum: aab1530e91e8c3cf7591a2dd1c215b67
-SHA1: 569a1ec8d07ebf9cf5243c34afd3e2503b69f8b3
-SHA256: e86bf6e5e6d814e56eb7c5d6ac9c554161b929949c36a5f39b35320972787b29
-Section: embedded
-Priority: extra
-Homepage: http://www.flightaware.com/
-Description: Local web interface for dump978
- .
- Provides a web interface to display aircraft data received from dump978.
-
-Package: tcl-tls
-Source: tcltls
-Version: 1.7.22-2+fa1
-Architecture: arm64
-Maintainer: Debian Tcl/Tk Packagers <pkg-tcltk-devel@lists.alioth.debian.org>
-Installed-Size: 172
-Depends: libc6 (>= 2.17), libssl3t64 (>= 3.0.0), libtcl8.6 (>= 8.6.14+dfsg-1~) | libtcl
-Conflicts: libtls0, tcltls
-Replaces: libtls0, tcltls
-Provides: tcltls
-Filename: ./tcl-tls_1.7.22-2+fa1_arm64.deb
-Size: 67448
-MD5sum: 2d6e8145dbfb120faa3c17b03d1c0d33
-SHA1: 0440f6973dca97df693fb8e3e41ef1e7120d40d5
-SHA256: aa65212c7fe3aefa227188c67c7be1d6aaff9f254869a7769e2f1f99974217f2
-Section: libs
-Priority: optional
-Multi-Arch: same
-Homepage: https://core.tcl.tk/tcltls
-Description: TLS OpenSSL extension to Tcl
- This package enables communication over SSL-encrypted channels in Tcl.
- .
- Both client and server-side sockets are possible. Additionally, full
- filevent semantics should be intact.
-
-Package: tcl-tls
-Source: tcltls
-Version: 1.7.22-2+fa1
-Architecture: amd64
-Maintainer: Debian Tcl/Tk Packagers <pkg-tcltk-devel@lists.alioth.debian.org>
-Installed-Size: 164
-Depends: libc6 (>= 2.14), libssl3t64 (>= 3.0.0), libtcl8.6 (>= 8.6.14+dfsg-1~) | libtcl
-Conflicts: libtls0, tcltls
-Replaces: libtls0, tcltls
-Provides: tcltls
-Filename: ./tcl-tls_1.7.22-2+fa1_amd64.deb
-Size: 67294
-MD5sum: bacb887552ab5919d5b4abeb5ce805f3
-SHA1: 1b2b7d70c3ede5a5aa40c575c473ce9a060709a6
-SHA256: 0d8c70d77c1db999aef9ad12e07e185d3c0cf1555f9ee372d520ccba81129c31
-Section: libs
-Priority: optional
-Multi-Arch: same
-Homepage: https://core.tcl.tk/tcltls
-Description: TLS OpenSSL extension to Tcl
- This package enables communication over SSL-encrypted channels in Tcl.
- .
- Both client and server-side sockets are possible. Additionally, full
- filevent semantics should be intact.
 
