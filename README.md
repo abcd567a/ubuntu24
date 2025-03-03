@@ -1,9 +1,9 @@
-### Package install of ver 9.0 piaware, dump1090-fa, piaware-web, and dump978-fa on:
-**(1) 64-bit Ubuntu-24 (noble) AMD64/x86_64 (PC & Laptop)** </br>
+### Package install of ver 10.0 piaware, dump1090-fa, piaware-web, and dump978-fa on:
+**(1) Ubuntu-24 (noble) AMD64/x86_64 (PC & Laptop)** </br>
 
-**(1) 64-bit LinuxMint-22 (wilma) AMD64/x86_64 (PC & Laptop)** </br>
+**(2) LinuxMint-22 (wilma) AMD64/x86_64 (PC & Laptop)** </br>
 
-**(2) 64-bit Ubuntu-24 (noble) aarch64 (RPi 3 & 4)** </br>
+
 ### STEP-1: Add this repository to list of apt sources by following 3 commands:
 
 `sudo wget -O /etc/apt/sources.list.d/abcd567a.list https://abcd567a.github.io/ubuntu24/abcd567a.list  `
