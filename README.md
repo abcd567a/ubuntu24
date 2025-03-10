@@ -1,7 +1,7 @@
 ### Package install of ver 10.0 piaware, dump1090-fa, piaware-web, and dump978-fa on:
-**(1) Ubuntu-24 (noble) AMD64/x86_64 (PC & Laptop)** </br>
-
-**(2) LinuxMint-22 (wilma) AMD64/x86_64 (PC & Laptop)** </br>
+**(1) PC & Laptop - Ubuntu-24 (noble) AMD64/x86_64** </br>
+**(2) RPi 3 & 4 - 64-bit Ubuntu-24 (noble) aarch64 / arm64** </br>
+**(3) PC & Laptop - LinuxMint-22 (wilma) AMD64/x86_64** </br>
 
 
 ### STEP-1: Add this repository to list of apt sources by following 3 commands:
