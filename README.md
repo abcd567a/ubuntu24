@@ -6,11 +6,17 @@
 
 ### STEP-1: Add this repository to list of apt sources by following 3 commands:
 
-`sudo wget -O /etc/apt/sources.list.d/abcd567a.list https://abcd567a.github.io/ubuntu24/abcd567a.list  `
+```
+sudo wget -O /etc/apt/sources.list.d/abcd567a.list https://abcd567a.github.io/ubuntu24/abcd567a.list
+```
 
-`sudo wget -O /etc/apt/trusted.gpg.d/abcd567a-key.gpg https://abcd567a.github.io/ubuntu24/KEY2.gpg  `
+```
+sudo wget -O /etc/apt/trusted.gpg.d/abcd567a-key.gpg https://abcd567a.github.io/ubuntu24/KEY2.gpg
+```
 
-`sudo apt update  `
+```
+sudo apt update
+```
 
 
 ### STEP-2: Install packages
