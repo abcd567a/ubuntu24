@@ -38,25 +38,6 @@ Description: FlightAware ADS-B Ground Station System for SDRs
 
 Package: dump978-fa
 Version: 10.0
-Architecture: amd64
-Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
-Installed-Size: 670
-Depends: libboost-program-options1.83.0 (>= 1.83.0), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 13.1), adduser
-Recommends: skyaware978, soapysdr-module-rtlsdr
-Filename: ./dump978-fa_10.0_amd64.deb
-Size: 241600
-MD5sum: 3e5b6e636f27e6c0013b6bf848c783d9
-SHA1: 873715a85309a06ed9db03224824ea4fc6b90129
-SHA256: a393f480dfff6ef712b81fc3489a0e439cab570fdf062421f303f127d7fa8e43
-Section: embedded
-Priority: extra
-Homepage: http://www.flightaware.com/
-Description: ADS-B UAT Ground Station System
- .
- FlightAware's SDR decoder for UAT ADS-B messages on 978MHz.
-
-Package: dump978-fa
-Version: 10.0
 Architecture: arm64
 Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
 Installed-Size: 678
@@ -74,25 +55,23 @@ Description: ADS-B UAT Ground Station System
  .
  FlightAware's SDR decoder for UAT ADS-B messages on 978MHz.
 
-Package: piaware
+Package: dump978-fa
 Version: 10.0
-Architecture: arm64
-Maintainer: FlightAware Developers <adsb-devs@flightaware.com>
-Installed-Size: 24059
-Depends: libboost-program-options1.83.0 (>= 1.83.0), libbz2-1.0, libc6 (>= 2.38), libexpat1 (>= 2.6.0), libgcc-s1 (>= 3.3.1), liblzma5 (>= 5.1.1alpha+20120614), libssl3t64 (>= 3.0.0), libstdc++6 (>= 13.1), libtcl8.6 (>= 8.6.0), zlib1g (>= 1:1.2.0), python3-pyasyncore, net-tools, iproute2, tcl, tclx8.4, tcl8.6, tcllib, tcl-tls (>= 1.7.22-2+fa1), itcl3
-Suggests: dump1090-fa, dump978-fa
-Conflicts: fa-mlat-client
-Replaces: fa-mlat-client
-Filename: ./piaware_10.0_arm64.deb
-Size: 6850342
-MD5sum: b30837b9b3be1f1e1fef27ea2cea2fb5
-SHA1: 9004f8b1245daeb6430aabcd58ea470711623075
-SHA256: f73f12b0918c4ae44ec7d68cf71cf19da07ac3aec31c646d2f31bbbe21c91b74
+Architecture: amd64
+Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
+Installed-Size: 670
+Depends: libboost-program-options1.83.0 (>= 1.83.0), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 13.1), adduser, skyaware978, soapysdr-module-rtlsdr
+Filename: ./dump978-fa_10.0_amd64.deb
+Size: 241592
+MD5sum: 35a67047c68be551df0e87b0cbb71ebf
+SHA1: ae02b912ec7f9944ce009376d1fc26339d98c22a
+SHA256: 8d7924de83134169d1553531eaf13ff605c580841f62c7ceb5b4a223c0b1529e
 Section: embedded
 Priority: extra
-Homepage: https://github.com/flightaware
-Description: Open Aviation Data Exchange Protocol for ADS-B FlightFeeders
-  The client-side portion of fa_adept that sends aviation data via TCL sockets.
+Homepage: http://www.flightaware.com/
+Description: ADS-B UAT Ground Station System
+ .
+ FlightAware's SDR decoder for UAT ADS-B messages on 978MHz.
 
 Package: piaware
 Version: 10.0
@@ -108,6 +87,26 @@ Size: 6967404
 MD5sum: 783fc076f22920e5b78528392b61c08e
 SHA1: b3dc95d39d2e7b68321c851300027e8091c0b70a
 SHA256: ef75cf865cb84063c100d2b2508fc85d740b824ca4fe11cbfbeaf9e592874858
+Section: embedded
+Priority: extra
+Homepage: https://github.com/flightaware
+Description: Open Aviation Data Exchange Protocol for ADS-B FlightFeeders
+  The client-side portion of fa_adept that sends aviation data via TCL sockets.
+
+Package: piaware
+Version: 10.0
+Architecture: arm64
+Maintainer: FlightAware Developers <adsb-devs@flightaware.com>
+Installed-Size: 24059
+Depends: libboost-program-options1.83.0 (>= 1.83.0), libbz2-1.0, libc6 (>= 2.38), libexpat1 (>= 2.6.0), libgcc-s1 (>= 3.3.1), liblzma5 (>= 5.1.1alpha+20120614), libssl3t64 (>= 3.0.0), libstdc++6 (>= 13.1), libtcl8.6 (>= 8.6.0), zlib1g (>= 1:1.2.0), python3-pyasyncore, net-tools, iproute2, tcl, tclx8.4, tcl8.6, tcllib, tcl-tls (>= 1.7.22-2+fa1), itcl3
+Suggests: dump1090-fa, dump978-fa
+Conflicts: fa-mlat-client
+Replaces: fa-mlat-client
+Filename: ./piaware_10.0_arm64.deb
+Size: 6850342
+MD5sum: b30837b9b3be1f1e1fef27ea2cea2fb5
+SHA1: 9004f8b1245daeb6430aabcd58ea470711623075
+SHA256: f73f12b0918c4ae44ec7d68cf71cf19da07ac3aec31c646d2f31bbbe21c91b74
 Section: embedded
 Priority: extra
 Homepage: https://github.com/flightaware
