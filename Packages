@@ -41,13 +41,12 @@ Version: 10.0
 Architecture: arm64
 Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
 Installed-Size: 678
-Depends: libboost-program-options1.83.0 (>= 1.83.0), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 13.1), adduser
-Recommends: skyaware978, soapysdr-module-rtlsdr
+Depends: libboost-program-options1.83.0 (>= 1.83.0), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 13.1), adduser, skyaware978, soapysdr-module-rtlsdr
 Filename: ./dump978-fa_10.0_arm64.deb
-Size: 232610
-MD5sum: 31c054507d39c64304480fa23a7b6eca
-SHA1: 7c79f38103a272f7eadca2150a04219d318e40d7
-SHA256: 778eb38a5b8323fbce486042e75bdff7ce7d0b5083f2683d9b9153580595e39f
+Size: 232602
+MD5sum: 2bc7a6dafb3c8c34998e1e27608c88fb
+SHA1: f26d47b720c63fc3dfd3de1758d25e697f32cc3f
+SHA256: 684f19ae6f17219ffdbe2d20443938e60bf34c05027bcc1ad1a9707ac28629d0
 Section: embedded
 Priority: extra
 Homepage: http://www.flightaware.com/
