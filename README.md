@@ -1,4 +1,4 @@
-### Package install of ver 10.0.1 piaware, dump1090-fa, piaware-web, and dump978-fa on:
+### Package install of ver 10.2 piaware, dump1090-fa, piaware-web, and dump978-fa on:
 **(1) PC & Laptop - Ubuntu-24 (noble) AMD64/x86_64** </br>
 **(2) RPi 3 & 4 - 64-bit Ubuntu-24 (noble) aarch64 / arm64** </br>
 **(3) PC & Laptop - LinuxMint-22 (wilma) AMD64/x86_64** </br>
@@ -11,7 +11,7 @@ sudo wget -O /etc/apt/sources.list.d/abcd567a.list https://abcd567a.github.io/ub
 ```
 
 ```
-sudo wget -O /etc/apt/trusted.gpg.d/abcd567a-key.gpg https://abcd567a.github.io/ubuntu24/KEY2.gpg
+sudo wget -O /etc/apt/keyrings/abcd567a-key.gpg https://abcd567a.github.io/ubuntu24/KEY2.gpg
 ```
 
 ```
