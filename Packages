@@ -18,16 +18,16 @@ Description: FlightAware ADS-B Ground Station System for SDRs
  device support.
 
 Package: dump1090-fa
-Version: 10.2
+Version: 11.0
 Architecture: amd64
 Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
-Installed-Size: 12053
+Installed-Size: 12210
 Depends: libbladerf2 (>= 0.2023.02), libc6 (>= 2.38), libhackrf0 (>= 2023.01.1), liblimesuite23.11-1 (>= 23.11.0+dfsg), libncurses6 (>= 6), librtlsdr2 (>= 2.0.1), libsoapysdr0.8 (>= 0.8.1), libtinfo6 (>= 6), adduser, lighttpd
-Filename: ./dump1090-fa_10.2_amd64.deb
-Size: 2420508
-MD5sum: c6c0b30c5d5533b419d1f0df2e013fc5
-SHA1: a655c8f5d599bac87974f731bb575712654c549b
-SHA256: 4eb47d6366a5218b1a4600a885a02f2814ca32e7705e6d9896d25683e8329626
+Filename: ./dump1090-fa_11.0_amd64.deb
+Size: 2446882
+MD5sum: b8fb5ec502b61e1a64f85704a3b30bcc
+SHA1: 8aab623872c1805c5d147f40366d6b92b0dbdc47
+SHA256: 0cb38637ea8b81ef8c751b75092cac7e2fe6545650e8c8abaa2e86a3f3c69a22
 Section: embedded
 Priority: extra
 Homepage: http://www.flightaware.com/
@@ -35,24 +35,6 @@ Description: FlightAware ADS-B Ground Station System for SDRs
  Networked Aviation Mode S / ADS-B decoder/translator with support
  for RTL-SDR, BladeRF, HackRF, and LimeSDR software defined radio USB
  device support.
-
-Package: dump978-fa
-Version: 10.2
-Architecture: amd64
-Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
-Installed-Size: 671
-Depends: libboost-program-options1.83.0 (>= 1.83.0), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 13.1), adduser, skyaware978, soapysdr-module-rtlsdr
-Filename: ./dump978-fa_10.2_amd64.deb
-Size: 241966
-MD5sum: ac6934ebe87a7969601d43b08ef417af
-SHA1: f326b78d3ee76dc796f052954b080a0e82f04744
-SHA256: 34d847f929c915536be9370ab927660450f04152140d3a104dcaf99dc22ad931
-Section: embedded
-Priority: extra
-Homepage: http://www.flightaware.com/
-Description: ADS-B UAT Ground Station System
- .
- FlightAware's SDR decoder for UAT ADS-B messages on 978MHz.
 
 Package: dump978-fa
 Version: 10.2
@@ -72,25 +54,23 @@ Description: ADS-B UAT Ground Station System
  .
  FlightAware's SDR decoder for UAT ADS-B messages on 978MHz.
 
-Package: piaware
-Version: 10.2
+Package: dump978-fa
+Version: 11.0
 Architecture: amd64
-Maintainer: FlightAware Developers <adsb-devs@flightaware.com>
-Installed-Size: 23339
-Depends: libboost-program-options1.83.0 (>= 1.83.0), libbz2-1.0, libc6 (>= 2.38), libexpat1 (>= 2.6.0), libgcc-s1 (>= 3.3.1), liblzma5 (>= 5.1.1alpha+20120614), libssl3t64 (>= 3.0.0), libstdc++6 (>= 13.1), libtcl8.6 (>= 8.6.0), zlib1g (>= 1:1.2.0), python3-pyasyncore, net-tools, iproute2, tcl, tclx8.4, tcl8.6, tcllib, tcl-tls (>= 1.7.22-2+fa1), itcl3
-Suggests: dump1090-fa, dump978-fa
-Conflicts: fa-mlat-client
-Replaces: fa-mlat-client
-Filename: ./piaware_10.2_amd64.deb
-Size: 6978018
-MD5sum: 103e79068d506987c19e9f7fc7146899
-SHA1: 0950a8bbb981fee4ccb524a0d50bef0fc0db97e8
-SHA256: ffb395e3890910b810f64a2281d7e5068e5db4f0e87876e16bc71268e7b9a394
+Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
+Installed-Size: 667
+Depends: libboost-program-options1.83.0 (>= 1.83.0), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 13.1), adduser, skyaware978, soapysdr-module-rtlsdr
+Filename: ./dump978-fa_11.0_amd64.deb
+Size: 240916
+MD5sum: f43670d004fd37e77194825cc65bc98a
+SHA1: 5a92f2ea9f9974b7ad9f3ae2e0c8ced774f448fb
+SHA256: b5d7eea1a499da0e5706b1dfe82f6cd0c00571d585dc82f9cb91b89b53e2a2f2
 Section: embedded
 Priority: extra
-Homepage: https://github.com/flightaware
-Description: Open Aviation Data Exchange Protocol for ADS-B FlightFeeders
-  The client-side portion of fa_adept that sends aviation data via TCL sockets.
+Homepage: http://www.flightaware.com/
+Description: ADS-B UAT Ground Station System
+ .
+ FlightAware's SDR decoder for UAT ADS-B messages on 978MHz.
 
 Package: piaware
 Version: 10.2
@@ -112,17 +92,37 @@ Homepage: https://github.com/flightaware
 Description: Open Aviation Data Exchange Protocol for ADS-B FlightFeeders
   The client-side portion of fa_adept that sends aviation data via TCL sockets.
 
+Package: piaware
+Version: 11.0
+Architecture: amd64
+Maintainer: FlightAware Developers <adsb-devs@flightaware.com>
+Installed-Size: 5383
+Depends: libboost-program-options1.83.0 (>= 1.83.0), libbz2-1.0, libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), liblzma5 (>= 5.1.1alpha+20120614), libpython3.12t64 (>= 3.12.1), libssl3t64 (>= 3.0.0), libstdc++6 (>= 13.1), libtcl8.6 (>= 8.6.0), net-tools, iproute2, tclx8.4, tcl8.6, tcllib, tcl-tls (>= 1.7.22-2+fa1), itcl3, rsyslog
+Suggests: dump1090-fa, dump978-fa
+Conflicts: fa-mlat-client
+Replaces: fa-mlat-client
+Filename: ./piaware_11.0_amd64.deb
+Size: 2331756
+MD5sum: 9b9d46c46386cc39cb7301661e7184a8
+SHA1: ce3a1ef06ba2ecc723dcae91dcbb7f20adc5cafa
+SHA256: 31b19b72d10d882988e5703c144df70780d7d0224ae7aff770451183ac2ffccb
+Section: embedded
+Priority: extra
+Homepage: https://github.com/flightaware
+Description: Open Aviation Data Exchange Protocol for ADS-B FlightFeeders
+  The client-side portion of fa_adept that sends aviation data via TCL sockets.
+
 Package: piaware-web
-Version: 10.2
+Version: 11.0~dev
 Architecture: all
 Maintainer: FlightAware Developers <adsb-devs@flightaware.com>
 Installed-Size: 371
 Depends: lighttpd
-Filename: ./piaware-web_10.2_all.deb
-Size: 90102
-MD5sum: 77978726595f4c8e02280472fcf4cf87
-SHA1: 170841980b152f49161913217818d978af872fde
-SHA256: 70a04374753b3abf3b0804b10c7565f535711c3fa9b6655a779052ff4154f9b1
+Filename: ./piaware-web_11.0-dev_all.deb
+Size: 90220
+MD5sum: a577fc0851069fc5ae8b19782e618f09
+SHA1: d8dadbf494252d4c911161e834300c480552e1e2
+SHA256: 423504a81b7a4e3d73785b1d592cb542b7dd4ac1c5d208091b423dc597cb4570
 Section: embedded
 Priority: extra
 Homepage: https://github.com/flightaware
@@ -151,18 +151,18 @@ Description: Local web interface for dump978
 
 Package: skyaware978
 Source: dump978-fa
-Version: 10.2
+Version: 11.0
 Architecture: amd64
 Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
-Installed-Size: 14473
+Installed-Size: 14889
 Depends: libboost-filesystem1.83.0 (>= 1.83.0), libboost-program-options1.83.0 (>= 1.83.0), libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), adduser, lighttpd
 Breaks: skyview978 (<< 3.7.2~)
 Replaces: skyview978 (<< 3.7.2~)
-Filename: ./skyaware978_10.2_amd64.deb
-Size: 2745244
-MD5sum: ee99cd282b876dafd6ceba14a5eaa8d8
-SHA1: df448a645bee0aa9d82078adc273e74b54255374
-SHA256: 42de2144ba954110093948a436c2cc52f78c3d2e75fe4c43fdab2ad05e99cf75
+Filename: ./skyaware978_11.0_amd64.deb
+Size: 2803250
+MD5sum: db3065f4cb7bd5fd33456531ea8e799a
+SHA1: 6b462a9dc8ac0b70b6e217c1231511b1f1fafa81
+SHA256: 73610cae1481083d6eeb9805fbf6227feb5cfd231239cf909bb141395cc49859
 Section: embedded
 Priority: extra
 Homepage: http://www.flightaware.com/
